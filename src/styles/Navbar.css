@@ -1,0 +1,74 @@
+/* REGLE  SPACING SYSTEME ET FONT-SIZE SYSTEM CSS */
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+:root {
+  --main-color: #fa983a;
+}
+.navbar {
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  font-size: 3rem;
+  margin-left: 3rem;
+  color: var(--main-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.navbar-link-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navbar-link-items a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.navbar-link-items img {
+  width: 2.2rem;
+  margin-right: 0.3rem;
+  filter: drop-shadow(0 0 0px transparent);
+  transition: filter 0.2s ease-in-out;
+}
+
+.navbar-link-items > li:hover img {
+  filter: drop-shadow(0 0 1rem var(--main-color));
+}
+
+.navbar-link-items a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-link-items > li a:hover {
+  color: var(--main-color);
+}
+
+.navbar-link-items li:last-child {
+  margin-right: 4rem;
+}
+
+.navbar-link-items li:last-child:hover {
+  filter: invert(50%) sepia(100%) saturate(2000%) hue-rotate(0deg);
+}

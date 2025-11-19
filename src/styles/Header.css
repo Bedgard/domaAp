@@ -1,0 +1,41 @@
+.header-banner {
+  height: 50vh;
+  position: relative;
+}
+
+.header-banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right -50px;
+}
+
+.header-title {
+  position: absolute;
+  letter-spacing: 0.75px;
+  top: 40%;
+  left: 2.5%;
+  font-weight: bold;
+  font-size: 3.4rem;
+}
+
+.header-button {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* plus foncé */
+  letter-spacing: 0.2px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 1.4rem 3rem;
+  top: 65%;
+  left: 15%;
+  text-decoration: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+
+.header-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}

@@ -12,7 +12,7 @@
 
 .header-title {
   position: absolute;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.2px;
   top: 40%;
   left: 2.5%;
   font-weight: bold;
@@ -22,14 +22,14 @@
 .header-button {
   position: absolute;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5); /* plus foncé */
-  letter-spacing: 0.2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.1px;
   font-size: 1.8rem;
   font-weight: 600;
   display: inline-block;
   padding: 1.4rem 3rem;
   top: 65%;
-  left: 15%;
+  left: 13%;
   text-decoration: none;
   border-radius: 3rem;
   cursor: pointer;

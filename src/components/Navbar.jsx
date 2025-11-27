@@ -13,24 +13,27 @@ export default function Navbar() {
           <li>
             <a href="#">
               <img src={powerWashing} alt="le ménage doit être régulier" />
-              Ménage régulier
+              <span className="navbar-link-items--name"> Ménage régulier</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={clean} alt="le ménage doit être ponctuel" /> Ménage
-              ponctuel
+              <img src={clean} alt="le ménage doit être ponctuel" />{" "}
+              <span className="navbar-link-items--name">Ménage Ponctuel</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={steamIron} alt="le repassage complet" /> Service de
-              repassage
+              <img src={steamIron} alt="le repassage complet" />{" "}
+              <span className="navbar-link-items--name">
+                Service de repassage
+              </span>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src={connexion} alt="connexion" /> Connectez-vous
+              <img src={connexion} alt="connexion" />
+              <span className="navbar-link-items--name">Connectez-vous</span>
             </a>
           </li>
         </ul>

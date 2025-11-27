@@ -41,3 +41,36 @@
 }
 
 /********** HEADER *********/
+
+@media (max-width: 500px) {
+  .header-banner img {
+    object-position: 60%;
+  }
+  .header-banner::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    background-color: rgb(177, 177, 177);
+  }
+
+  .header-title {
+    text-wrap: balance;
+    font-size: 3.4rem;
+  }
+
+  .header-button {
+    top: 74%;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-title {
+    text-wrap: balance;
+    font-size: 2.8rem;
+  }
+}

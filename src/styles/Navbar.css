@@ -16,6 +16,8 @@ FONT SIZE SYSTEM (px)
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 2rem;
+  margin-right: 2rem;
 }
 
 .navbar-logo {
@@ -65,9 +67,9 @@ FONT SIZE SYSTEM (px)
   color: var(--main-color);
 }
 
-.navbar-link-items li:last-child {
+/* .navbar-link-items li:last-child {
   margin-right: 4rem;
-}
+} */
 
 .navbar-link-items li:last-child:hover {
   filter: invert(24%) sepia(86%) saturate(1476%) hue-rotate(159deg)
@@ -76,8 +78,44 @@ FONT SIZE SYSTEM (px)
 
 /***************** MEDIA QUERRIES *****************/
 
-@media (max-width: 500px) {
-  li:nth-child(-n + 3) {
+@media (max-width: 1000px) {
+  .navbar {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 950px) {
+  .navbar-link-items--name {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar-link-items a {
+    font-size: 1.1rem;
+  }
+  .navbar {
+    gap: 0;
+    margin-right: 2rem;
+  }
+}
+
+.navbar-logo {
+  margin-left: 1rem;
+}
+
+@media (max-width: 600px) {
+  .navbar-link-items li:nth-child(-n + 3) {
     display: none;
+  }
+
+  .navbar-logo {
+    margin-left: 1rem;
+  }
+
+  .navbar {
+    gap: 0;
+    margin-right: 1rem;
+    justify-content: space-between;
   }
 }

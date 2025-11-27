@@ -73,3 +73,11 @@ FONT SIZE SYSTEM (px)
   filter: invert(24%) sepia(86%) saturate(1476%) hue-rotate(159deg)
     brightness(97%) contrast(101%);
 }
+
+/***************** MEDIA QUERRIES *****************/
+
+@media (max-width: 500px) {
+  li:nth-child(-n + 3) {
+    display: none;
+  }
+}

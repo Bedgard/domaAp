@@ -7,12 +7,13 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: 0% 14%;
 }
 
 .header-title {
   position: absolute;
   letter-spacing: 0.2px;
-  top: 40%;
+  top: 41%;
   left: 2.5%;
   font-weight: 800;
   font-size: 4rem;
@@ -27,8 +28,8 @@
   font-weight: 600;
   display: inline-block;
   padding: 1.4rem 3rem;
-  top: 65%;
-  left: 8%;
+  top: 70%;
+  left: 12%;
   text-decoration: none;
   border-radius: 3rem;
   cursor: pointer;
@@ -58,60 +59,68 @@
 /********** HEADER *********/
 
 @media (max-width: 905px) {
-  .header-title {
-    font-size: 3.5rem;
-    font-weight: 800;
-  }
-  .header-banner img {
-    object-position: 60%;
-  }
   .header-button {
     top: 70%;
     font-size: 2.3rem;
   }
-}
 
-@media (max-width: 840px) {
   .header-title {
-    font-size: 4.4rem;
-    font-weight: 800;
+    font-size: 3.5rem;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 815px) {
   .header-title {
     font-size: 3rem;
-    top: 35%;
+    top: 41%;
     left: 2.5%;
     font-weight: 800;
     text-wrap: balance;
   }
 
   .header-button {
-    top: 74%;
+    /* top: 74%; */
     font-size: 2.2rem;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 700px) {
+  .header-title {
+    font-size: 3.3rem;
+    left: 2.5%;
+    font-weight: 800;
+    text-wrap: balance;
+  }
+
+  .header-button {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
   .header-title {
     text-wrap: balance;
     top: 38%;
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 800;
   }
   .header-button {
-    top: 76%;
+    top: 68%;
     font-size: 2.1rem;
-    left: 8%;
+  }
+
+  .header-banner img {
+    object-position: 73%;
   }
 }
 
 @media (max-width: 375px) {
+  .header-banner img {
+    object-position: 63%;
+  }
   .header-button {
     top: 76%;
     font-size: 1.8rem;
-    left: 14%;
   }
 }
 @media (max-width: 344px) {

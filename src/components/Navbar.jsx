@@ -19,7 +19,7 @@ export default function Navbar() {
           <li>
             <a href="#">
               <img src={clean} alt="le ménage doit être ponctuel" />{" "}
-              <span className="navbar-link-items--name">Ménage Ponctuel</span>
+              <span className="navbar-link-items--name">Ménage ponctuel</span>
             </a>
           </li>
           <li>

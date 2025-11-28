@@ -87,7 +87,7 @@ FONT SIZE SYSTEM (px)
   .navbar {
     justify-content: center;
     flex-direction: column;
-    margin-right: 2rem;
+    margin-right: 0rem;
     gap: 2rem;
   }
 
@@ -128,6 +128,7 @@ FONT SIZE SYSTEM (px)
     gap: 2rem;
     justify-content: space-between;
     flex-direction: row;
+    margin: 0rem 1rem;
   }
   .navbar-link-items--name {
     font-size: 1.6rem;

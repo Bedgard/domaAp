@@ -56,7 +56,7 @@
   );
 }
 
-/********** HEADER *********/
+/********** MEDIA QUERRIES HEADER *********/
 
 @media (max-width: 905px) {
   .header-button {
@@ -79,7 +79,6 @@
   }
 
   .header-button {
-    /* top: 74%; */
     font-size: 2.2rem;
   }
 }

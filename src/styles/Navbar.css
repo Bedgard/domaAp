@@ -81,7 +81,7 @@ FONT SIZE SYSTEM (px)
     brightness(97%) contrast(101%);
 }
 
-/***************** MEDIA QUERRIES *****************/
+/***************** MEDIA QUERRIES NAVBAR *****************/
 
 @media (max-width: 1115px) {
   .navbar {

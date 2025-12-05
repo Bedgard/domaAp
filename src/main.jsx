@@ -4,10 +4,12 @@ import "./components/Navbar";
 import "./index.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import About from "./components/About";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
     <Header />
+    <About />
   </StrictMode>
 );

@@ -113,22 +113,23 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 483px) {
+  .header-button {
+    top: 74%;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 374px) {
   .header-banner img {
     object-position: 63%;
   }
   .header-button {
     top: 76%;
-    font-size: 1.8rem;
-  }
-}
-@media (max-width: 344px) {
-  .navbar-link-items--name {
-    font-size: 1.4rem;
-  }
-  .header-button {
-    top: 76%;
     font-size: 1.6rem;
-    left: 12%;
+    left: 10%;
+  }
+  .header-title {
+    font-size: 2.2rem;
   }
 }

@@ -1,0 +1,9 @@
+.about-informations-img {
+  border: 3px solid red;
+  width: 35%;
+  height: 45%;
+}
+
+.about-informations-img img {
+  width: 100%;
+}

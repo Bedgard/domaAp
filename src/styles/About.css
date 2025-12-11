@@ -55,7 +55,6 @@ FONT SIZE SYSTEM (px)
 }
 
 /* la grille  */
-
 .about-information-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

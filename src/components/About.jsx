@@ -33,7 +33,7 @@ function About() {
             s'occupe de votre intérieur.
           </p>
           <p>
-            Grâce à une équipe dynamique, professionelle, et disponible en
+            Grâce à une équipe dynamique, professionnelle et disponible en
             permanence pour vos besoins, <span>WeCasa</span> vous propose
             différents services afin que vous puissiez en toute tranquillité et
             en toute sécurité retrouver un logement propre et prêt dès votre
@@ -41,9 +41,9 @@ function About() {
           </p>
           <p>
             Face à l'explosion d'une vie où tout le monde n'a plus le temps,
-            notre équipe dévouée répond immédiatement à votre demande, et
-            exécute dans les moindres détails toutes vos requêtes. Alors
-            n'hésite pas, choisissez <span>WeCasa</span> !
+            notre équipe dévouée répond immédiatement à votre demande et exécute
+            dans les moindres détails toutes vos requêtes. Alors n'hésite pas,
+            choisissez <span>WeCasa</span> !
           </p>
         </div>
         <div className="about-informations-grid--img">

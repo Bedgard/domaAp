@@ -120,7 +120,7 @@ FONT SIZE SYSTEM (px)
   transform: scale(1.2);
 }
 
-/********** MEDIA QUERRIES HEADER *********/
+/********** MEDIA QUERRIES ABOUT *********/
 
 @media (max-width: 1300px) {
   .about-informations-grid--img img {

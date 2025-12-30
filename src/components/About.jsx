@@ -8,16 +8,16 @@ function About() {
         <h1>
           A propos de<span> WeCasa</span>
         </h1>
-        <p>
+        {/* <p>
           La vie est trop courte pour s'occuper des tâches ménagères
           <br />
           <span className="title-second"> WeCasa</span> est là pour vous servir
           !
-        </p>
+        </p> */}
       </div>
       <div className="about-information-grid">
         <div className="about-informations-grid--text">
-          <h2>Finies les tâches ménagères</h2>
+          {/* <h2>Finies les tâches ménagères</h2> */}
           <p>
             Créée en 2025, <span>WeCasa</span> vous propose{" "}
             <span className="txt-black">

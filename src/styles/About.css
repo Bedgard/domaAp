@@ -119,3 +119,48 @@ FONT SIZE SYSTEM (px)
 .about-informations-grid--img img:hover {
   transform: scale(1.2);
 }
+
+/********** MEDIA QUERRIES HEADER *********/
+
+@media (max-width: 1300px) {
+  .about-informations-grid--img img {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-information-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-informations-grid--text {
+    padding-right: 5rem;
+    padding-bottom: 0rem;
+    margin-top: -2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-informations-grid--text {
+    padding-right: 3rem;
+    margin-top: -4rem;
+  }
+  .about-informations--infos h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-informations-grid--text h2 {
+    text-align: center;
+    font-size: 2.1rem;
+  }
+  .about-informations-grid--text p {
+    font-size: 1.48rem;
+  }
+
+  .about-informations-grid--img {
+    padding-left: 0;
+  }
+  .about-informations-grid--img img {
+    margin-top: 0;
+    display: none;
+  }
+}

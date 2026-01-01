@@ -35,24 +35,6 @@ FONT SIZE SYSTEM (px)
     0px 8px 16px rgba(0, 0, 0, 0.12);
 }
 
-/* .title-second {
-  font-weight: 800;
-}
-
-.about-informations--infos p {
-  font-size: 2.6rem;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.12);
-  font-weight: 400;
-  line-height: 3rem;
-  margin-top: 3.4rem;
-  margin-bottom: 2rem;
-}
-
-.about-informations--infos span {
-  color: var(--second-color);
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.08);
-} */
-
 /* la grille  */
 .about-information-grid {
   display: grid;

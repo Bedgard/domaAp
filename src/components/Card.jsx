@@ -1,5 +1,7 @@
 import "../styles/Card.css";
 import repassage from "../images/photo-repassage.png";
+import menageComplet from "../images/photomenagecomplet.png";
+import menagePonctuel from "../images/photomenageponctuel.png";
 
 function Card() {
   return (

@@ -1,7 +1,17 @@
-function Cards() {
-  return <div>
- 
+import "../styles/Card.css";
+import repassage from "../images/photo-repassage.png";
 
-  </div>;
+function Card() {
+  return (
+    <div className="card-container">
+      <div className="card-container-img">
+        <h1>Service de repassage</h1>
+        <img src={repassage} alt="une femme de ménage en train de repasser" />
+        <a href="#" className="card-button">
+          Réservez maintenant
+        </a>
+      </div>
+    </div>
+  );
 }
-export default Cards;
+export default Card;

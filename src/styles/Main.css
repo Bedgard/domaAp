@@ -42,7 +42,7 @@
 }
 
 /********** MEDIA QUERRIES GRID CONTAINER *********/
-/* Entre 929px et 650px */
+
 @media (max-width: 945px) {
   .grid-container {
     grid-template-columns: 1fr;

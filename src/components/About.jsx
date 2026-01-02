@@ -8,11 +8,9 @@ function About() {
         <h1>
           A propos de<span> WeCasa</span>
         </h1>
-       
       </div>
       <div className="about-information-grid">
         <div className="about-informations-grid--text">
-      
           <p>
             Créée en 2025, <span>WeCasa</span> vous propose{" "}
             <span className="txt-black">
@@ -20,7 +18,7 @@ function About() {
               des services de nettoyage complet.{" "}
             </span>
             Que vous soyez en vacances, que vous louiez votre logement ou que
-            vous avez besoin d'un ménage de printemps, <span>WeCasa</span>{" "}
+            vous ayez besoin d'un ménage de printemps, <span>WeCasa</span>{" "}
             s'occupe de vous :{" "}
             <span className="txt-black">ménage régulier</span>,{" "}
             <span className="txt-black">ménage ponctuel</span>,{" "}

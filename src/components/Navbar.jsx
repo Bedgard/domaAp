@@ -13,13 +13,13 @@ export default function Navbar() {
           <li>
             <a href="#">
               <img src={powerWashing} alt="le ménage doit être régulier" />
-              <span className="navbar-link-items--name"> Ménage régulier</span>
+              <span className="navbar-link-items--name"> Ménage complet</span>
             </a>
           </li>
           <li>
             <a href="#">
               <img src={clean} alt="le ménage doit être ponctuel" />{" "}
-              <span className="navbar-link-items--name">Ménage ponctuel</span>
+              <span className="navbar-link-items--name">Ménage rapide</span>
             </a>
           </li>
           <li>

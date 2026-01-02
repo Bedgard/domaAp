@@ -1,5 +1,5 @@
 .header-banner {
-  height: 50vh;
+  height: 50rem;
   position: relative;
 }
 
@@ -7,7 +7,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: 0% 14%;
+  object-position: 58% 18%;
 }
 
 .header-title {
@@ -110,8 +110,12 @@
     font-size: 1.8rem;
   }
 
+  .header-banner {
+    height: 30rem;
+  }
+
   .header-banner img {
-    object-position: 73%;
+    object-position: 78%;
   }
 }
 
@@ -121,11 +125,15 @@
     font-size: 1.8rem;
     left: 16%;
   }
+
+  .header-banner {
+    height: 45rem;
+  }
 }
 
 @media (max-width: 400px) {
   .header-banner img {
-    object-position: 63%;
+    object-position: 73%;
   }
   .header-button {
     top: 76%;
@@ -137,8 +145,14 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
   .header-button {
     left: 16%;
+  }
+
+  @media (max-width: 341px) {
+    .header-button {
+      left: 12%;
+    }
   }
 }

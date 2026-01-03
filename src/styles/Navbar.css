@@ -76,9 +76,9 @@ FONT SIZE SYSTEM (px)
   color: var(--main-color);
 }
 
-/* .navbar-link-items li:last-child {
-  margin-right: 4rem;
-} */
+.navbar-link-items li:last-child {
+  margin-right: 3rem;
+}
 
 .navbar-link-items li:last-child:hover {
   filter: invert(24%) sepia(86%) saturate(1476%) hue-rotate(159deg)
@@ -102,6 +102,9 @@ FONT SIZE SYSTEM (px)
 
   .navbar-logo {
     margin-left: 1rem;
+  }
+  .navbar-link-items li:last-child {
+    margin-right: 0rem;
   }
 }
 

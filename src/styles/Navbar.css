@@ -136,7 +136,7 @@ FONT SIZE SYSTEM (px)
     gap: 2rem;
     justify-content: space-between;
     flex-direction: row;
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
   .navbar-link-items--name {
     font-size: 1.6rem;
@@ -146,10 +146,20 @@ FONT SIZE SYSTEM (px)
   }
 }
 
+@media (max-width: 450px) {
+  .navbar-link-items li:last-child {
+    margin-right: 0rem;
+  }
+}
+
 @media (max-width: 375px) {
   .navbar-link-items--name {
     font-size: 1.4rem;
   }
+
+  /* .navbar-link-items a {
+    margin-left: revert-layer;
+  } */
 
   .navbar-logo {
     font-size: 2rem;

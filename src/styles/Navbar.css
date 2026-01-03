@@ -91,7 +91,7 @@ FONT SIZE SYSTEM (px)
   .navbar {
     justify-content: center;
     flex-direction: column;
-    /* margin-right: 0rem; */
+    margin: 0 auto;
     gap: 2rem;
   }
 
@@ -103,9 +103,10 @@ FONT SIZE SYSTEM (px)
   .navbar-logo {
     margin-left: 1rem;
   }
-  .navbar-link-items li:last-child {
+
+  /* .navbar-link-items li:last-child {
     margin-right: 0rem;
-  }
+  } */
 }
 
 @media (max-width: 846px) {

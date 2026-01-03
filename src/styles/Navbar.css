@@ -18,6 +18,12 @@ FONT SIZE SYSTEM (px)
   justify-content: space-between;
   gap: 2rem;
   margin-right: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  padding: 2.5rem 1rem;
 }
 
 .navbar-logo {
@@ -128,7 +134,7 @@ FONT SIZE SYSTEM (px)
     gap: 2rem;
     justify-content: space-between;
     flex-direction: row;
-    margin: 0rem 1rem;
+    padding: 2rem;
   }
   .navbar-link-items--name {
     font-size: 1.6rem;

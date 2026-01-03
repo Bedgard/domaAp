@@ -143,10 +143,6 @@ FONT SIZE SYSTEM (px)
 }
 
 @media (max-width: 375px) {
-  .navbar {
-    margin: 0rem 1rem 0rem 0rem;
-  }
-
   .navbar-link-items--name {
     font-size: 1.4rem;
   }

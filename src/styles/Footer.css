@@ -1,0 +1,32 @@
+footer {
+  background-color: rgb(63 132 161 / 74%);
+}
+
+.footer-down-txt {
+  font-size: 6rem;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1.3rem;
+  border-top: 1px dotted white;
+  padding-top: 2rem;
+}
+
+.footer-down-txt--legal {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.footer-contacts img {
+  width: 2.7rem;
+}

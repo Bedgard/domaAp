@@ -62,6 +62,8 @@
   background-color: var(--color-image-third);
 }
 
+/********** MEDIA QUERRIES CARD *********/
+
 @media (max-width: 929px) {
   .card-container-img img {
     height: 30rem;

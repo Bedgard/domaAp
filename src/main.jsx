@@ -8,7 +8,9 @@ import "./styles/Main.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
+import Banner from "./components/Banner";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import { nanoid } from "nanoid";
 
 const cardsDatas = [
@@ -57,7 +59,8 @@ createRoot(document.getElementById("root")).render(
         ))}
       </div>
     </div>
-
+    <Banner />
     <About />
+    <Footer />
   </StrictMode>
 );

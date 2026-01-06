@@ -10,7 +10,7 @@ function Banner() {
         <img src={lien} alt="une icone montrant une connexion" />
         <p className="banner-container-title">personnel qualifié</p>
         <p className="banner-container-description">
-          Nous disposons d'une équipe de professionnelle du nettoyage
+          Nous disposons d'une équipe de professionnels du nettoyage
           indépendants, vérifiés et expérimentés qui interviennent chaque jour
           dans vos maisons et appartements
         </p>

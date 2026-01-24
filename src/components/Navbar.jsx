@@ -1,4 +1,5 @@
 import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
 import clean from "../images/clean.png";
 import powerWashing from "../images/power-washing.png";
 import steamIron from "../images/steam-iron.png";
@@ -7,34 +8,36 @@ import connexion from "../images/connexion.png";
 export default function Navbar() {
   return (
     <div className="navbar">
-      <div className="navbar-logo">WeCasa</div>
+      <Link to="/">
+        <div className="navbar-logo">WeCasa</div>
+      </Link>
       <nav className="navbar-link">
         <ul className="navbar-link-items">
           <li>
-            <a href="#">
+            <Link to="/fullcleaning">
               <img src={powerWashing} alt="le ménage doit être régulier" />
               <span className="navbar-link-items--name"> Ménage complet</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/quickcleaning">
               <img src={clean} alt="le ménage doit être ponctuel" />{" "}
               <span className="navbar-link-items--name">Ménage rapide</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/ironing">
               <img src={steamIron} alt="le repassage complet" />{" "}
               <span className="navbar-link-items--name">
                 Service de repassage
               </span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#">
+            <Link to="/login">
               <img src={connexion} alt="connexion" />
               <span className="navbar-link-items--name">Connectez-vous</span>
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

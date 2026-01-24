@@ -2,12 +2,10 @@ import { nanoid } from "nanoid";
 import repassage from "../images/photo-repassage.png";
 import menageComplet from "../images/photomenagecomplet.png";
 import menagePonctuel from "../images/photomenageponctuel.png";
-import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import About from "../components/About";
 import Banner from "../components/Banner";
 import Card from "../components/Card";
-import Footer from "../components/Footer";
 
 function Home() {
   const cardsDatas = [
@@ -36,7 +34,6 @@ function Home() {
 
   return (
     <>
-      <Navbar />
       <Header />
       <div className="grid-informations">
         <p>La vie est trop courte pour s'occuper des tâches ménagères</p>
@@ -58,7 +55,6 @@ function Home() {
       </div>
       <Banner />
       <About />
-      <Footer />
     </>
   );
 }

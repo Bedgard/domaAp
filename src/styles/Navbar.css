@@ -24,6 +24,10 @@ FONT SIZE SYSTEM (px)
   background-color: white;
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
 .navbar-logo {
   font-size: 4rem;
   margin-left: 3rem;

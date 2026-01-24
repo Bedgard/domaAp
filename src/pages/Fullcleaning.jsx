@@ -19,7 +19,6 @@ function Fullcleaning() {
   return (
     <>
       <Carousel items={images} />
-      
     </>
   );
 }

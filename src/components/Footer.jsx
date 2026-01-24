@@ -1,8 +1,7 @@
-
-import gmail from "../images/gmail.png";
-import twitter from "../images/twitter.png";
-import instagram from "../images/instagram.png";
-import facebook from "../images/facebook.png";
+import gmail from "../assets/images/links/gmail.png";
+import twitter from "../assets/images/links/twitter.png";
+import instagram from "../assets/images/links/instagram.png";
+import facebook from "../assets/images/links/facebook.png";
 import "../styles/Footer.css";
 
 export default function Footer() {

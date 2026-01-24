@@ -1,4 +1,4 @@
-import about from "../images/about.png";
+import about from "../assets/images/home/about.png";
 import "../styles/About.css";
 
 function About() {

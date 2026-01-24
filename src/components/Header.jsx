@@ -1,5 +1,5 @@
 import "../styles/Header.css";
-import banner from "../images/banner.jpg";
+import banner from "../assets/images/home/banner.jpg";
 
 function Header() {
   return (

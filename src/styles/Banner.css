@@ -46,7 +46,7 @@
 
 .banner-container {
   display: flex;
-  align-items: flex-start; /* aligne le haut des colonnes */
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -57,11 +57,10 @@
     align-items: center;
   }
   .banner-container-description {
-    font-size: 1.3rem; /* adapte au mobile */
+    font-size: 1.3rem;
     max-width: 200px;
   }
   .banner-container-icons {
     border-left: none;
-    /* margin-bottom: 2rem; */
   }
 }

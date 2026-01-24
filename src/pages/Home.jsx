@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
-import repassage from "../images/photo-repassage.png";
-import menageComplet from "../images/photomenagecomplet.png";
-import menagePonctuel from "../images/photomenageponctuel.png";
+import repassage from "../assets/images/home/photo-repassage.png";
+import menageComplet from "../assets/images/home/photomenagecomplet.png";
+import menagePonctuel from "../assets/images/home/photomenageponctuel.png";
 import Header from "../components/Header";
 import About from "../components/About";
 import Banner from "../components/Banner";

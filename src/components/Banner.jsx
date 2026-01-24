@@ -1,6 +1,6 @@
-import chrono from "../images/clock.png";
-import lien from "../images/user.png";
-import pouce from "../images/thumbs-up.png";
+import chrono from "../assets/images/icons/clock.png";
+import lien from "../assets/images/icons/user.png";
+import pouce from "../assets/images/icons/thumbs-up.png";
 import "../styles/Banner.css";
 
 function Banner() {

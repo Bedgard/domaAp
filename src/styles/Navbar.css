@@ -148,9 +148,19 @@ FONT SIZE SYSTEM (px)
   }
 }
 
+@media (max-width: 680px) {
+  .navbar {
+    padding-right: 0;
+  }
+
+  .navbar-link-items li:last-child {
+    margin-right: 2rem;
+  }
+}
+
 @media (max-width: 450px) {
   .navbar-link-items li:last-child {
-    margin-right: 0rem;
+    margin-right: 2rem;
   }
 }
 

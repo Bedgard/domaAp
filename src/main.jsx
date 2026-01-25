@@ -11,12 +11,16 @@ import "./styles/Main.css";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/fullcleaning" element={<Fullcleaning />} />
-      </Routes>
-      <Footer />
+      <div className="layout">
+        <Navbar />
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/fullcleaning" element={<Fullcleaning />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   </StrictMode>,
 );

@@ -4,14 +4,14 @@ function Carousel({ items }) {
       <div className="track">
         <div className="group">
           {items.map((item, index) => (
-            <div className="card" key={index}>
+            <div className="card" key={index} data-label={item.dataLabel}>
               <img src={item.img} alt={item.description} />
             </div>
           ))}
         </div>
         <div className="group">
           {items.map((item, index) => (
-            <div className="card" key={index}>
+            <div className="card" key={index} data-label={item.dataLabel}>
               <img src={item.img} alt={item.description} />
             </div>
           ))}

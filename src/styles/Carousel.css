@@ -1,9 +1,6 @@
 .carousel {
   width: 100%;
   overflow: hidden;
-}
-
-.carousel {
   mask-image: linear-gradient(
     to right,
     transparent,
@@ -11,7 +8,9 @@
     black 90%,
     transparent
   );
+  background-color: rgb(255, 255, 255);
 }
+
 .carousel::-webkit-scrollbar {
   display: none;
 }
@@ -22,36 +21,51 @@
 }
 
 .card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.2s ease;
 }
-
-.card:hover {
-  transform: translateY(8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
-}
-
-.track {
-  display: flex;
-  width: max-content;
-  animation: spin 25s linear infinite;
-}
-
 .card {
   width: 25rem;
-  height: 20rem;
+  height: 30rem;
   flex-shrink: 0;
-  margin-right: 2rem;
+  margin-right: 0.5rem;
+  position: relative;
 }
 
 .card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
+}
+
+.card:hover {
+  transform: translateY(-40px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  opacity: 0.8;
+}
+
+.card:hover::after {
+  content: attr(data-label);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.5rem;
+  margin-top: -1rem;
+  background-color: rgba(64, 136, 230, 0.933);
+  color: rgb(244, 241, 241);
 }
 
 .group {
   display: flex;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: spin 40s linear infinite;
 }
 
 @keyframes spin {

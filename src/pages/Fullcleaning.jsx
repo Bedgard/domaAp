@@ -9,12 +9,36 @@ import slide6 from "../assets/images/carousel/image-6-fullcleaning.jpg";
 
 function Fullcleaning() {
   const images = [
-    { img: slide1, description: "Une femme de ménage nettoyant une table" },
-    { img: slide3, description: "Une femme nettoyant les carreaux" },
-    { img: slide2, description: "Un homme passant l'aspirateur" },
-    { img: slide4, description: "Une femme faisant la vaisselle" },
-    { img: slide6, description: "Une femme nettoyant les vitres" },
-    { img: slide5, description: "Un homme nettoyant le plan de travail" },
+    {
+      img: slide1,
+      description: "Une femme de ménage nettoyant une table",
+      dataLabel: "Efficace",
+    },
+    {
+      img: slide3,
+      description: "Une femme nettoyant les carreaux",
+      dataLabel: "Rapide",
+    },
+    {
+      img: slide2,
+      description: "Un homme passant l'aspirateur",
+      dataLabel: "Précis",
+    },
+    {
+      img: slide4,
+      description: "Une femme faisant la vaisselle",
+      dataLabel: "Rigoureux",
+    },
+    {
+      img: slide6,
+      description: "Une femme nettoyant les vitres",
+      dataLabel: "Actif",
+    },
+    {
+      img: slide5,
+      description: "Un homme nettoyant le plan de travail",
+      dataLabel: "Serviable",
+    },
   ];
 
   return (

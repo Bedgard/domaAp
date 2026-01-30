@@ -2,12 +2,13 @@
 
 A modern **React-based web application** that allows users to book home cleaning services online, select time slots, manage reservations, and connect with cleaning professionals.
 
+
 ## 📸 Screenshots
 
-### 🏠 Home Page
+### 🏠 Landing Page
 
 <p align="center">
-  <img src="screenshots/home.png" width="900"/>
+  <img src="screenshots/home-hero.png" width="900">
 </p>
 
 ---
@@ -15,8 +16,9 @@ A modern **React-based web application** that allows users to book home cleaning
 ### 🧼 Services Selection
 
 <p align="center">
-  <img src="screenshots/services.png" width="900"/>
+  <img src="screenshots/services-cards.png" width="900">
 </p>
+
 ---
 
 ## 📖 About The Project

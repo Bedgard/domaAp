@@ -42,7 +42,7 @@ The main objective is to streamline the cleaning service booking process and imp
 ### Frontend
 - React
 - React Router
-- Axios / Fetch API
+- Fetch API
 -  CSS
 
 ### Backend

@@ -20,7 +20,6 @@ A modern **React-based web application** that allows users to book home cleaning
 
 ---
 
----
 
 ## 📖 About The Project
 

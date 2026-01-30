@@ -12,7 +12,7 @@ function Fullcleaning() {
     {
       img: slide1,
       description: "Une femme de ménage nettoyant une table",
-      dataLabel: "Efficace",
+      dataLabel: "Efficace",  
     },
     {
       img: slide3,

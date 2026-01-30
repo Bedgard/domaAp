@@ -8,7 +8,7 @@ function Card({ title, description, color, image }) {
       <a href="#" className="card-button">
         Réservez maintenant
       </a>
-    </div>
+    </div> 
   );
 }
 export default Card;

@@ -20,8 +20,6 @@ A modern **React-based web application** that allows users to book home cleaning
 
 ---
 
-
-
 ---
 
 ## 📖 About The Project
@@ -29,8 +27,6 @@ A modern **React-based web application** that allows users to book home cleaning
 This project provides a simple and efficient platform for customers to schedule home cleaning services. It includes booking management, user accounts, scheduling, and secure payment integration.
 
 The main objective is to streamline the cleaning service booking process and improve the connection between customers and cleaners through a user-friendly interface.
-
----
 
 ## ✨ Features
 
@@ -42,7 +38,6 @@ The main objective is to streamline the cleaning service booking process and imp
 - 💳 Secure payments  
 - 📱 Responsive UI  
 
-
 ## 🛠 Tech Stack
 
 ### Frontend
@@ -51,7 +46,7 @@ The main objective is to streamline the cleaning service booking process and imp
 - Axios / Fetch API
 -  CSS
 
-### Backend (if applicable)
+### Backend
 - Node.js
 - Express
 

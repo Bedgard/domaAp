@@ -1,18 +1,18 @@
-# 🧹 Home Cleaning Booking App — React ( On going...)
+# Home Cleaning Booking App — React ( On going...)
 
 A modern **React-based web application** that allows users to book home cleaning services online, select time slots, manage reservations, and connect with cleaning professionals.
 
 
-## 📸 Screenshots
+## Screenshots
 
-### 🏠 Landing Page
+### Landing Page
 
 <p align="center">
   <img src="screenshots/services-cards.png" width="900">
 </p>
 
 
-### 🧼 Services Selection
+### Services Selection
 
 <p align="center">
   <img src="screenshots/home-hero.png" width="900">
@@ -21,23 +21,23 @@ A modern **React-based web application** that allows users to book home cleaning
 ---
 
 
-## 📖 About The Project
+## About The Project
 
 This project provides a simple and efficient platform for customers to schedule home cleaning services. It includes booking management, user accounts, scheduling, and secure payment integration.
 
 The main objective is to streamline the cleaning service booking process and improve the connection between customers and cleaners through a user-friendly interface.
 
-## ✨ Features
+## Features
 
-- 👤 User registration and login  
-- 🧼 Browse cleaning services  
-- 📅 Date and time slot selection  
-- 📝 Online booking system  
-- 📋 Reservation management  
-- 💳 Secure payments  
-- 📱 Responsive UI  
+- User registration and login  
+- Browse cleaning services  
+- Date and time slot selection  
+- Online booking system  
+- Reservation management  
+- Secure payments  
+- Responsive UI  
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React

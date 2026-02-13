@@ -35,3 +35,36 @@ footer {
 .footer-contacts img:hover {
   transform: scale(1.3);
 }
+
+/************************* MEDIAQUERIES **************************/
+
+@media (max-width: 690px) {
+  footer {
+    padding: 0.5rem;
+  }
+  .footer-down-txt {
+    font-size: 3rem;
+    padding-top: 1rem;
+  }
+  .footer-contacts {
+    padding: 0;
+  }
+  .footer-contacts img {
+    width: 2.3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-down-txt {
+    font-size: 2.3rem;
+    padding-top: 1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .footer-contacts {
+    padding: 0;
+  }
+  .footer-contacts img {
+    width: 2rem;
+  }
+}

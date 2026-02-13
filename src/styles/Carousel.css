@@ -82,3 +82,19 @@
     transform: translateX(-50%);
   }
 }
+
+/************************* MEDIAQUERIES **************************/
+
+@media (max-width: 850px) {
+  .card {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .card {
+    width: 15rem;
+    height: 20rem;
+  }
+}

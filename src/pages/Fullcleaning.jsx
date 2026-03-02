@@ -1,4 +1,5 @@
 import Carousel from "../components/Carousel";
+import Included from "../components/Included";
 import "../styles/Carousel.css";
 import slide1 from "../assets/images/carousel/image-1-fullcleaning.jpg";
 import slide2 from "../assets/images/carousel/image-2-fullcleaning.jpg";
@@ -12,7 +13,7 @@ function Fullcleaning() {
     {
       img: slide1,
       description: "Une femme de ménage nettoyant une table",
-      dataLabel: "Efficace",  
+      dataLabel: "Efficace",
     },
     {
       img: slide3,
@@ -44,6 +45,7 @@ function Fullcleaning() {
   return (
     <>
       <Carousel items={images} />
+      <Included />
     </>
   );
 }

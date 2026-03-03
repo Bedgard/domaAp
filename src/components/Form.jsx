@@ -1,5 +1,4 @@
 import "../styles/Form.css";
-
 function Form() {
   return (
     <div>
@@ -11,16 +10,18 @@ function Form() {
       >
         <ul>
           <li>
-            <label for="name">Nom&nbsp;:</label>
+            <label htmlFor="name">Nom&nbsp;:</label>
             <input type="text" id="name" name="user_name" />
           </li>
           <li>
-            <label for="mail">E-mail&nbsp;:</label>
+            <label htmlFor="mail">E-mail&nbsp;:</label>
             <input type="email" id="mail" name="user_mail" />
           </li>
         </ul>
+        <button type="submit">Envoyer</button>
       </form>
     </div>
   );
 }
+
 export default Form;

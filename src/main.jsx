@@ -4,6 +4,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Fullcleaning from "./pages/Fullcleaning";
+import Quickcleaning from "./pages/Quickcleaning";
+import Ironing from "./pages/Ironing";
+import Login from "./pages/Login";
 import Home from "./pages/Home";
 import "./index.css";
 import "./styles/Main.css";
@@ -17,6 +20,9 @@ createRoot(document.getElementById("root")).render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/fullcleaning" element={<Fullcleaning />} />
+            <Route path="/quickcleaning" element={<Quickcleaning />} />
+            <Route path="/ironing" element={<Ironing />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
         <Footer />

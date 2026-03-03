@@ -1,6 +1,6 @@
 import Carousel from "../components/Carousel";
 import Included from "../components/Included";
-import dessin from "../assets/images/icons/femme-de-menage-dessin.png";
+import dessin from "../assets/images/icons/femme-de-menage-dessin-3.png";
 import "../styles/Carousel.css";
 import slide1 from "../assets/images/carousel/image-1-fullcleaning.jpg";
 import slide2 from "../assets/images/carousel/image-2-fullcleaning.jpg";
@@ -9,7 +9,7 @@ import slide4 from "../assets/images/carousel/image-4-fullcleaning.jpg";
 import slide5 from "../assets/images/carousel/image-5-fullcleaning.jpg";
 import slide6 from "../assets/images/carousel/image-6-fullcleaning.jpg";
 
-function Fullcleaning() {
+function Ironing() {
   const images = [
     {
       img: slide1,
@@ -46,9 +46,10 @@ function Fullcleaning() {
   return (
     <>
       <Carousel items={images} />
+
       <Included
-        title="Ménage complet"
-        price="Dès 26,90€, soit 13,45€/h avec 2 heures de ménage assuré et garanti"
+        title="Repassage"
+        price="Dès 13,50€, soit 7,45€/h avec 1 heure de repassage assurée et garantie"
         items={[
           "Hommes et femmes de ménage de confiance et de qualité, notés par les clients",
           "Service disponible partout en France, en quelques clics sans engagement",
@@ -58,4 +59,4 @@ function Fullcleaning() {
     </>
   );
 }
-export default Fullcleaning;
+export default Ironing;

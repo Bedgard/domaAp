@@ -1,0 +1,15 @@
+.form-title {
+  font-size: 5rem;
+  text-align: center;
+  margin: 6rem auto;
+  font-weight: bolder;
+}
+
+.form-container {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  border: 3px solid rgb(50, 110, 201);
+  width: 30%;
+  height: 25rem;
+}

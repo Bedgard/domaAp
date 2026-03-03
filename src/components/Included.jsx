@@ -1,9 +1,9 @@
 import checked from "../assets/images/icons/check.png";
 
 import "../styles/Checked.css";
-function Included({ title, price, items, image }) {
+function Included({ title, price, items, image, variantColor }) {
   return (
-    <div className={`check-box-container`}>
+    <div className={`check-box-container ${variantColor}`}>
       <ul className="check-box">
         <h1>{title}</h1>
         <li className="check-box-list">

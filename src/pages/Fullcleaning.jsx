@@ -54,7 +54,6 @@ function Fullcleaning() {
           "Service disponible partout en France, en quelques clics sans engagement",
         ]}
         image={dessin}
-        variantColor="green"
       />
     </>
   );

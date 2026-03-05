@@ -1,6 +1,6 @@
 import checked from "../assets/images/icons/check.png";
 
-import "../styles/Checked.css";
+import "../styles/Included.css";
 function Included({ title, price, items, image, variantColor }) {
   return (
     <div className={`check-box-container ${variantColor}`}>

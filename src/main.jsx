@@ -8,6 +8,8 @@ import Quickcleaning from "./pages/Quickcleaning";
 import Ironing from "./pages/Ironing";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
+import Register from "./components/Register";
+
 import "./index.css";
 import "./styles/Main.css";
 
@@ -23,6 +25,7 @@ createRoot(document.getElementById("root")).render(
             <Route path="/quickcleaning" element={<Quickcleaning />} />
             <Route path="/ironing" element={<Ironing />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </main>
         <Footer />

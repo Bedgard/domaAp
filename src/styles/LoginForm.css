@@ -43,10 +43,19 @@
 }
 
 .subtitle {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #666;
   text-align: center;
-  margin-bottom: 1rem;
+}
+
+.link {
+  color: #267bc5;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 /* Ligne (email + password) */

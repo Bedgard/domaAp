@@ -1,0 +1,89 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("../assets/images/home/femme-de-menage-form.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* overlay */
+.register-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* IMPORTANT 🔥 */
+.register-container {
+  position: relative;
+  z-index: 1;
+
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  max-width: 25rem;
+}
+
+.register-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.9rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  color: #555;
+  font-size: 1.8rem;
+}
+
+.form-group input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #4a90e2;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #4a90e2;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+.register-container button:hover {
+  background: #357bd8;
+}

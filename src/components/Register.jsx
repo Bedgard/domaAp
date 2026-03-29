@@ -3,6 +3,7 @@ import "../styles/Register.css";
 
 function Register() {
   const [name, setName] = useState("");
+  const [firstname, setFirstname] = useState(""); // ✅ ajouté
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");
@@ -13,12 +14,17 @@ function Register() {
 
     let newErrors = {};
 
-    const nameRegex = /^[A-Z][a-zA-Z-]+$/; // 🔥 moins strict
+    const nameRegex = /^[A-Z][a-zA-Z-]+$/;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     // NOM
     if (!nameRegex.test(name)) {
       newErrors.name = "Nom invalide (Majuscule requise)";
+    }
+
+    // PRENOM ✅
+    if (!nameRegex.test(firstname)) {
+      newErrors.firstname = "Prénom invalide (Majuscule requise)";
     }
 
     // EMAIL
@@ -36,18 +42,17 @@ function Register() {
       newErrors.confirm = "Les mots de passe ne correspondent pas";
     }
 
-    // S'il y a des erreurs
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
       return;
     }
 
-    // OK
     setErrors({});
     console.log("Compte créé ✅");
 
     // reset
     setName("");
+    setFirstname("");
     setEmail("");
     setPassword("");
     setConfirm("");
@@ -67,6 +72,16 @@ function Register() {
               onChange={(e) => setName(e.target.value)}
             />
             {errors.name && <p className="error">{errors.name}</p>}
+          </div>
+
+          <div className="form-group">
+            <label>Prénom</label>
+            <input
+              type="text"
+              value={firstname}
+              onChange={(e) => setFirstname(e.target.value)}
+            />
+            {errors.firstname && <p className="error">{errors.firstname}</p>}
           </div>
 
           <div className="form-group">

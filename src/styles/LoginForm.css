@@ -1,0 +1,91 @@
+/* Container principal */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-image: url("../assets/images/home/femme-de-menage-form.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 30%;
+  margin: 10rem auto;
+  border: 1px solid rgb(41, 138, 194);
+  border-radius: 2rem;
+  padding: 5rem;
+  background-color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.container-form h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Ligne (email + password) */
+.container-form--email,
+.container-form--password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Labels */
+.container-form label {
+  width: 100px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* Inputs */
+.container-form input {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Focus input */
+.container-form input:focus {
+  outline: none;
+  border-color: #267bc5;
+}
+
+/* Bouton */
+button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  font-size: 2.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #267bc5;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #267bc5;
+}
+
+.success {
+  margin-top: 1rem;
+  color: #2e7d32;
+  background-color: #e6f4ea;
+  padding: 0.7rem;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.4rem;
+}

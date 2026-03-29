@@ -23,7 +23,6 @@ function LoginForm() {
     console.log("Email:", email);
     console.log("Password:", password);
 
-    // reset des champs
     setEmail("");
     setPassword("");
   };

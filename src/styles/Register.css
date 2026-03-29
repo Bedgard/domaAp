@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
 }
 
-/* overlay */
 .register-page::before {
   content: "";
   position: absolute;
@@ -18,7 +17,6 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* IMPORTANT 🔥 */
 .register-container {
   position: relative;
   z-index: 1;

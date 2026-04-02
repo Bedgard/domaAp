@@ -32,7 +32,6 @@ function LoginForm() {
       <form onSubmit={handleSubmit}>
         <div className="container-form">
           <h2>Connexion</h2>
-
           <p className="subtitle">
             Pas encore de compte ? <Link to="/register">Créer un compte</Link>
           </p>

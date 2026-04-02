@@ -38,12 +38,18 @@ footer {
 
 /************************* MEDIAQUERIES **************************/
 
-@media (max-width: 690px) {
-  footer {
-    padding: 0.5rem;
-  }
+@media (max-width: 780px) {
   .footer-down-txt {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 690px) {
+  /* footer {
+    padding: 0.5rem;
+  } */
+  .footer-down-txt {
+    /* font-size: 3rem; */
     padding-top: 1rem;
   }
   .footer-contacts {
@@ -56,7 +62,7 @@ footer {
 
 @media (max-width: 500px) {
   .footer-down-txt {
-    font-size: 2.3rem;
+    font-size: 2rem;
     padding-top: 1rem;
     margin-bottom: 0.9rem;
   }

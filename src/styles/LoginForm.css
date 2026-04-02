@@ -93,14 +93,15 @@ button {
   font-size: 2.2rem;
   border: none;
   border-radius: 5px;
-  background-color: #267bc5;
+  background-color: #58b5d2da;
   color: white;
   cursor: pointer;
   transition: 0.3s;
 }
 
 button:hover {
-  background-color: #267bc5;
+  background-color: #177e9da1;
+
 }
 
 .success {

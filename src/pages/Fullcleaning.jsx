@@ -1,6 +1,6 @@
 import Carousel from "../components/Carousel";
 import Included from "../components/Included";
-import dessin from "../assets/images/icons/femme-de-menage-dessin.png";
+import cleanAllImg from "../assets/images/icons/cleanAll.png";
 import "../styles/Carousel.css";
 import slide1 from "../assets/images/carousel/image-1-fullcleaning.jpg";
 import slide2 from "../assets/images/carousel/image-2-fullcleaning.jpg";
@@ -53,7 +53,7 @@ function Fullcleaning() {
           "Hommes et femmes de ménage de confiance et de qualité, notés par les clients",
           "Service disponible partout en France, en quelques clics sans engagement",
         ]}
-        image={dessin}
+        image={cleanAllImg}
       />
     </>
   );

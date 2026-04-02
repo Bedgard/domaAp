@@ -74,7 +74,7 @@
   padding: 10px;
   border: none;
   border-radius: 8px;
-  background: #4a90e2;
+  background: #58b5d2da;
   color: white;
   font-size: 2rem;
   cursor: pointer;
@@ -83,7 +83,7 @@
 }
 
 .register-container button:hover {
-  background: #357bd8;
+  background: #177e9da1;
 }
 
 /************************* MEDIAQUERIES **************************/

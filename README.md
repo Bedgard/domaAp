@@ -18,6 +18,19 @@ A modern **React-based web application** that allows users to book home cleaning
   <img src="screenshots/home-hero.png" width="900">
 </p>
 
+### Cleaning Services
+
+<p align="center">
+  <img src="screenshots/cleaning-page.png" width="900">
+</p>
+
+### Login
+
+<p align="center">
+  <img src="screenshots/connexion.png" width="900">
+</p>
+
+
 ---
 
 

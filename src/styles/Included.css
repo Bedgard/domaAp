@@ -1,13 +1,13 @@
 .check-box h1 {
   font-size: 2.5rem;
-  color: rgba(255, 255, 255, 0.981);
+  color: #004261;
   margin-top: 2rem;
   text-align: center;
   padding: 1rem;
 }
 
 .check-box {
-  border: 2px solid white;
+  border: 1.5px solid #004261;
   border-radius: 4rem;
   margin-left: 3rem;
   margin-bottom: 2rem;
@@ -42,7 +42,8 @@
 .check-box-list img {
   height: 4rem;
   border-radius: 50%;
-  background-color: white;
+  background-color: #051922;
+  padding: 0.5rem;
 }
 
 .check-box-button {
@@ -55,11 +56,11 @@
 
 .check-box-button a:last-child {
   display: inline-block;
-  background-color: rgb(2, 19, 31);
+  background-color: rgb(18 12 89 / 68%);
 }
 .check-box-button a {
   display: inline-block;
-  background-color: rgb(18, 131, 230);
+  background-color: #267bc5;
   font-size: 1.7rem;
   font-weight: 600;
   border-radius: 4rem;
@@ -86,14 +87,55 @@
   height: 40rem;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 1px solid #004261;
 }
 
 /********** MEDIA QUERRIES CARD *********/
 
-/* @media (max-width: 18px) {
+@media (max-width: 600px) {
   .check-box-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 2.5rem;
   }
-} */
+
+  .image-box img {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .check-box h1 {
+    font-size: 2.8rem;
+  }
+  .check-box-list p {
+    font-size: 1.5rem;
+  }
+  .check-box-list img {
+    height: 3rem;
+  }
+
+  .check-box-button a {
+    padding: 1.5rem;
+  }
+  .check-box-button {
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  .check-box-button a:last-child {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    white-space: nowrap;
+  }
+
+  .check-box-button a {
+    font-size: 1.5rem;
+  }
+
+  .check-box {
+    padding-left: 0;
+    margin-left: 0;
+    padding: 1.8rem;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+  }
+}

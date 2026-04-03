@@ -88,3 +88,12 @@
   border-radius: 50%;
   border: 3px solid white;
 }
+
+/********** MEDIA QUERRIES CARD *********/
+
+/* @media (max-width: 18px) {
+  .check-box-container {
+    display: flex;
+    flex-direction: column;
+  }
+} */

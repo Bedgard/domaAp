@@ -33,7 +33,7 @@
   padding: 2rem;
   border-radius: 12px;
   width: 100%;
-  max-width: 400px;
+  max-width: 470px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
@@ -123,13 +123,18 @@
   .register-container button {
     font-size: 1.5rem;
   }
+  .register-container {
+    margin-bottom: 0rem;
+  }
 }
 
 @media (max-width: 375px) {
   .register-page {
     background-position: 37% top;
   }
+
   .register-container {
-    width: 67%;
+    position: fixed;
+    margin-bottom: 12rem;
   }
 }

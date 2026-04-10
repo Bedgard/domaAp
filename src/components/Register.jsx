@@ -3,7 +3,7 @@ import "../styles/Register.css";
 
 function Register() {
   const [name, setName] = useState("");
-  const [firstname, setFirstname] = useState(""); // ✅ ajouté
+  const [firstname, setFirstname] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirm, setConfirm] = useState("");

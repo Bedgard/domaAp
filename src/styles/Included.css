@@ -12,6 +12,7 @@
   margin-left: 3rem;
   margin-bottom: 2rem;
   padding-left: 2rem;
+  min-width: 0;
 }
 
 .check-box-container {
@@ -19,6 +20,7 @@
   grid-template-columns: 1fr 1fr;
   padding: 4rem;
   background: linear-gradient(135deg, #23a0c0, #03475653);
+  overflow: hidden; /* ← clé du problème */
 }
 
 .check-box-list {
@@ -91,6 +93,88 @@
 }
 
 /********** MEDIA QUERRIES CARD *********/
+
+@media (max-width: 1500px) {
+  .check-box-container {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+@media (max-width: 1400px) {
+  .check-box-container {
+    display: grid;
+    flex-direction: column;
+    padding: 0;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 2rem;
+    padding: 4rem;
+    /* align-items: start; */
+  }
+
+  .image-box img {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .check-box-button {
+    margin-bottom: 4rem;
+  }
+
+  .check-box-list {
+    margin-top: 2.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .image-box img {
+    width: 30rem;
+    height: 30rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .check-box-button a {
+    font-size: 1.6rem;
+  }
+
+  .check-box {
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .check-box-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .check-box {
+    margin: 4rem 4rem;
+    padding: 2.5rem;
+  }
+
+  .image-box img {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 2rem;
+  }
+
+  .check-box h1 {
+    font-size: 3rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .check-box-button {
+    margin-top: 3rem;
+  }
+
+  .check-box-list p {
+    margin: 0.9rem 0rem;
+  }
+}
 
 @media (max-width: 600px) {
   .check-box-container {

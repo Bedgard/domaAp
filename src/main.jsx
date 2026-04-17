@@ -9,6 +9,8 @@ import Ironing from "./pages/Ironing";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Register from "./components/Register";
+import Account from "./components/Account";
+import Error from "./components/Error";
 
 import "./index.css";
 import "./styles/Main.css";
@@ -26,6 +28,10 @@ createRoot(document.getElementById("root")).render(
             <Route path="/ironing" element={<Ironing />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="becomecleaner" element={<Account />} />
+
+            {/* //si le serveur ne répond pas  */}
+            <Route path="*" element={<Error />} />
           </Routes>
         </main>
         <Footer />

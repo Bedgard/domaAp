@@ -1,9 +1,10 @@
 import checked from "../assets/images/icons/check.png";
+import { Link } from "react-router-dom";
 
 import "../styles/Included.css";
 function Included({ title, price, items, image }) {
   return (
-    <div className={'check-box-container'}>
+    <div className={"check-box-container"}>
       <ul className="check-box">
         <h1>{title}</h1>
         <li className="check-box-list">
@@ -18,7 +19,7 @@ function Included({ title, price, items, image }) {
         ))}
         <div className="check-box-button">
           <a href="">Réserver mon ménage</a>
-          <a href="">Devenir aide ménagère WeCasa</a>
+          <Link to="/becomecleaner">Devenir aide ménagère WeCasa</Link>
         </div>
       </ul>
       <div className="image-box">

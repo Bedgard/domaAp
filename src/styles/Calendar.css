@@ -26,3 +26,12 @@
   text-align: center;
   margin-bottom: 2rem;
 }
+
+.registration-completed {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(15, 155, 60);
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}

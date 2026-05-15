@@ -16,7 +16,6 @@ function Account() {
     password: "",
     confirmation: "",
     service: "",
-    date: "",
   });
 
   const isFormInvalid =
@@ -189,11 +188,7 @@ function Account() {
           <img src={data.photo} alt="ma photo de profil" />
         </div>
         <div className="calendar-box">
-          <Calendar
-            firstName={data.firstName}
-            lastName={data.lastName}
-            service={data.service}
-          />
+          <Calendar datas={data} />
         </div>
       </div>
     </div>

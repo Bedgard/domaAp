@@ -20,6 +20,11 @@ function Calendar({ firstName, lastName, service }) {
   const saveReservation = () => {
     // vérifie qu'il y a une date début et fin
     if (!selected?.from || !selected?.to) return;
+    if (!firstName || !lastName || !service) {
+      setError("Veuillez remplir le formulaire d'inscription");
+      setTimeout(() => setError(""), 3000);
+      return;
+    }
 
     const newReservation = {
       firstName,
@@ -29,14 +34,6 @@ function Calendar({ firstName, lastName, service }) {
       to: selected.to.toLocaleDateString(),
     };
 
-    if (
-      !newReservation.firstName ||
-      !newReservation.lastName ||
-      !newReservation.service
-    ) {
-      setError("Veuillez remplir le formulaire d'inscription");
-      return;
-    }
     setError("");
     setReservations((prev) => [...prev, newReservation]);
 

@@ -9,3 +9,42 @@
   font-size: 10rem;
   color: rgb(55, 126, 164);
 }
+
+/********** MEDIA QUERRIES CARD *********/
+
+@media (max-width: 1200px) {
+  .Error h2 {
+    font-size: 8rem;
+  }
+  .Error {
+    margin: 25rem auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .Error h2 {
+    font-size: 8rem;
+  }
+  .Error {
+    margin: 25rem auto;
+  }
+}
+
+@media (max-width: 660px) {
+  .Error h2 {
+    font-size: 6rem;
+  }
+  .Error {
+    margin: 25rem auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .Error h2 {
+    font-size: 5rem;
+    text-wrap: nowrap;
+  }
+  .Error {
+    margin: 25rem auto;
+  }
+}

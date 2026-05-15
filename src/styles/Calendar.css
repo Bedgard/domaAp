@@ -18,3 +18,11 @@
 .button-calendar button:first-child:hover {
   background-color: rgba(121, 31, 151, 0.419);
 }
+
+.error-form {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(173, 54, 54);
+  text-align: center;
+  margin-bottom: 2rem;
+}

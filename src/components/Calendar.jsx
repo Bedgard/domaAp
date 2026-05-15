@@ -3,9 +3,10 @@ import { DayPicker } from "@daypicker/react";
 import "../styles/Calendar.css";
 import "@daypicker/react/style.css";
 
-function Calendar() {
+function Calendar({ firstName, lastName, service }) {
   // sélection actuelle
   const [selected, setSelected] = useState();
+  const [error, setError] = useState("");
 
   // réservations sauvegardées
   const [reservations, setReservations] = useState([]);
@@ -21,9 +22,22 @@ function Calendar() {
     if (!selected?.from || !selected?.to) return;
 
     const newReservation = {
+      firstName,
+      lastName,
+      service: service,
       from: selected.from.toLocaleDateString(),
       to: selected.to.toLocaleDateString(),
     };
+
+    if (
+      !newReservation.firstName ||
+      !newReservation.lastName ||
+      !newReservation.service
+    ) {
+      setError("Veuillez remplir le formulaire d'inscription");
+      return;
+    }
+    setError("");
     setReservations((prev) => [...prev, newReservation]);
 
     resetSelection();
@@ -36,6 +50,7 @@ function Calendar() {
 
   return (
     <>
+      {error && <p className="error-form">{error}</p>}
       <DayPicker
         mode="range"
         selected={selected}
@@ -45,7 +60,6 @@ function Calendar() {
 
       <div className="button-calendar">
         <button onClick={resetSelection}>Reset</button>
-
         <button onClick={saveReservation}>Enregistrer</button>
       </div>
     </>

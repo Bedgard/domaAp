@@ -189,7 +189,11 @@ function Account() {
           <img src={data.photo} alt="ma photo de profil" />
         </div>
         <div className="calendar-box">
-          <Calendar />
+          <Calendar
+            firstName={data.firstName}
+            lastName={data.lastName}
+            service={data.service}
+          />
         </div>
       </div>
     </div>

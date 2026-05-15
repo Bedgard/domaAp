@@ -15,8 +15,8 @@
   background-color: rgba(132, 172, 188, 0.631);
   backdrop-filter: blur(10px);
   border: 0.3rem solid rgba(255, 255, 255, 0.637);
-  margin-bottom: 3rem;
-  margin-top: 2rem;
+  margin-bottom: 6rem;
+  margin-top: 5rem;
   box-shadow: 0 2rem 5rem rgb(0 0 0 / 20%), 0 1rem 2rem rgb(132 172 188 / 30%);
 }
 
@@ -115,8 +115,8 @@
   border: 0.3rem solid rgba(255, 255, 255, 0.637);
   box-shadow: 0 2rem 5rem rgb(0 0 0 / 20%), 0 1rem 2rem rgb(132 172 188 / 30%);
   font-size: 2rem;
-  margin-bottom: 3rem;
-  margin-top: 2rem;
+  margin-bottom: 6rem;
+  margin-top: 5rem;
 }
 
 .account-calendar-panel h3 {

@@ -28,7 +28,6 @@ function Calendar() {
 
     resetSelection();
   };
-  console.log(selected);
 
   // console.log seulement quand reservations change
   useEffect(() => {

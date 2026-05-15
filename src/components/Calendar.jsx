@@ -13,8 +13,7 @@ function Calendar({ datas }) {
   const [reservations, setReservations] = useState([]);
 
   //   vérifier que tout le formulaire est rempli
-  const isFormValid = Object.values(datas);
-  console.log(isFormValid);
+
   const isFormInvalid = Object.values(datas).some((value) => value === "");
 
   // reset de la sélection

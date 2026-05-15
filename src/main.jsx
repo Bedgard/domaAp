@@ -11,7 +11,6 @@ import Home from "./pages/Home";
 import Register from "./components/Register";
 import Account from "./components/Account";
 import Error from "./components/Error";
-
 import "./index.css";
 import "./styles/Main.css";
 

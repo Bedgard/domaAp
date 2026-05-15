@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../styles/Register.css";
+import Calendar from "./Calendar";
 
 function Register() {
   const [name, setName] = useState("");
@@ -22,7 +23,7 @@ function Register() {
       newErrors.name = "Nom invalide (Majuscule requise)";
     }
 
-    // PRENOM ✅
+    // PRENOM
     if (!nameRegex.test(firstname)) {
       newErrors.firstname = "Prénom invalide (Majuscule requise)";
     }

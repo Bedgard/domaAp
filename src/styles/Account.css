@@ -1,13 +1,22 @@
+.layout-page {
+  display: flex;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(../assets/images/home/photoEquipe.png);
+  gap: 5rem;
+  justify-content: center;
+}
+
 .account-page {
-  margin: 4rem auto 10rem;
-  width: fit-content;
+  /* margin: 4rem auto 10rem; */
+  max-width: fit-content;
   padding: 3rem;
   border-radius: 3rem;
-  background-color: rgb(132 172 188 / 30%);
+  background-color: rgba(132, 172, 188, 0.631);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-
-  /* L'ombre améliorée */
+  border: 0.3rem solid rgba(255, 255, 255, 0.637);
+  margin-bottom: 3rem;
+  margin-top: 2rem;
   box-shadow: 0 2rem 5rem rgb(0 0 0 / 20%), 0 1rem 2rem rgb(132 172 188 / 30%);
 }
 
@@ -91,4 +100,35 @@
   text-align: center;
   color: red;
   margin: 1rem;
+}
+
+.account-calendar-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  max-width: fit-content;
+  border-radius: 3rem;
+  background-color: rgba(132, 172, 188, 0.631);
+  backdrop-filter: blur(10px);
+  border: 0.3rem solid rgba(255, 255, 255, 0.637);
+  box-shadow: 0 2rem 5rem rgb(0 0 0 / 20%), 0 1rem 2rem rgb(132 172 188 / 30%);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.account-calendar-panel h3 {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
+.calendar-subtitle {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 0rem;
 }

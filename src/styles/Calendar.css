@@ -1,0 +1,14 @@
+.button-calendar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button-calendar button {
+  border-radius: 2rem;
+  width: 14rem;
+  font-size: 1.7rem;
+}
+.button-calendar button:first-child {
+  background-color: rgba(121, 31, 151, 0.558);
+}
